@@ -9,7 +9,6 @@ export const AppContext = React.createContext();
 
 const App = () => {
   const [state, dispatch] = useReducer(reducer,initState);
-  console.log(state);
   
   return (
     <div className='app'>
